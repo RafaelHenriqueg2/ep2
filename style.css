@@ -1,7 +1,54 @@
-body{
-    background-color: darkgrey;
-color:rgb(0, 0, 0)
+header {
+    background-color: cornflowerblue;
+    (221, 221, 170);
+    display: flex;
+    border-radius: 10px
+
+
 }
-.seneca{
-    width: 35%;
+
+
+
+
+nav li {
+    display: inline;
+    margin: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    border: solid rgb(114, 135, 202);
+    background-color: hsl(240, 50%, 62%);
+   transition: 1s;
+   border-radius: 10px;
+}
+
+nav a:hover {
+    font-size: 23px;
+    color: white;
+    border: solid rgb(119, 13, 13);
+    background: black;
+}
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(to right, burlywood, chocolate);
+
+}
+
+main {
+    text-align: justify;
+    background-color: darkgray; 
+    margin: 50px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.logo{
+    border-radius: 50%;
+}
+main img{
+    height: 300;
 }
