@@ -1,54 +1,118 @@
-header {
-    background-color: cornflowerblue;
-    (221, 221, 170);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.olho {
+    width: 100%;
+    box-shadow: 0px 7px 22px -12px rgba(0, 72, 168, 0.34);
+}
+
+.navegation {
     display: flex;
-    border-radius: 10px
-
-
-}
-
-
-
-
-nav li {
-    display: inline;
-    margin: 15px;
-}
-
-nav a {
-    text-decoration: none;
-    font-size: 25px;
-    color: rgb(0, 0, 0);
-    border: solid rgb(114, 135, 202);
-    background-color: hsl(240, 50%, 62%);
-   transition: 1s;
-   border-radius: 10px;
-}
-
-nav a:hover {
-    font-size: 23px;
-    color: white;
-    border: solid rgb(119, 13, 13);
-    background: black;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid red;
 }
 
 footer {
     text-align: center;
-    background-image: linear-gradient(to right, burlywood, chocolate);
+    background-color: darkgrey;
+    border: medium solid red;
+    padding: 1rem;
+    color: white;
+    border-bottom: 1px solid red;
+    border-radius: 10px;
+}
 
+.nav-item {
+    display: inline;
+    margin-right: 1.5rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: all 0.8s;
+    padding: 0.3rem;
+}
+
+.nav-item a:hover {
+    border-bottom: 1px solid red;
+}
+
+.logo {
+    height: 7rem;
+}
+
+.nav-list {
+    margin-right: 5rem;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-container {
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.section-img {
+    width: 40%;
+    height: 40%;
+}
+
+.section-img img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.section-title {
+    margin: 5rem;
 }
 
 main {
     text-align: justify;
-    background-color: darkgray; 
+    background-color: darkgray;
     margin: 50px;
     padding: 50px;
     border-radius: 10px;
 }
 
-.logo{
-    border-radius: 50%;
+main img {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
 }
-main img{
-    height: 300;
+
+.main {
+    background-color: white;
+    padding-bottom: 2rem;
+}
+
+.section-container {
+    border-radius: 10px;
+}
+
+p {
+    text-align: justify;
+}
+.pensa{
+    height: 13rem;
+    
 }
